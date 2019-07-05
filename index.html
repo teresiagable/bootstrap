@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -12,29 +12,29 @@
 
     <title>Teresias bootstrap page</title>
 </head>
-<body class="bg-secondary">
+<body class="bg-primary text-light">
   <header>
-        <nav class="navbar navbar-expand-sm bg-secondary">    
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark text-light">     
         <a class="navbar-brand" href="#">
             <img src="http://pluspng.com/img-png/cute-pig-png-hd-pig-hd-png-pluspng-com-600-pig-hd-png-600.jpg" class="img-fluid" alt="pig" style="width:60px;">
         </a>
             
-         <ul class="nav text-warning">
+         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#">Link 1</a>
+                <a class="nav-link" href= "http://www.google.se">Google</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link 2</a>
+                <a class="nav-link" href="http://sv.lipsum.com/">Lorem lipsum</a>
               </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Link 3</a>
+                <a class="nav-link" href="http://www.w3schools.com">w3schools</a>
               </li>
         </ul>
         </nav>
       </header>
 
    
-      <div id="pig" class="carousel slide text-center" data-ride="carousel">
+      <div id="pig" class="carousel slide text-center mb-3" style="margin-top:250px;"  data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#pig" data-slide-to="0" class="active"></li>
           <li data-target="#pig" data-slide-to="1"></li>
@@ -61,7 +61,40 @@
         <a class="carousel-control-next" href="#pig" data-slide="next">
           <span class="carousel-control-next-icon"></span>
         </a>
-      
+      </div>
+      <form class="container"> 
+      <div class="row">
+          <article class="col"><h3 class="text-white">Domestic Pig!</h3>
+              <p>The domestic pig (Sus scrofa domesticus or only Sus domesticus), often called swine, hog, or simply pig when there is no need to distinguish it from other pigs, is a domesticated large, even-toed ungulate. 
+                It is variously considered a subspecies of the Eurasian boar or a distinct species. The domestic pig's head-plus-body-length ranges from 0.9 to 1.8 m (35 to 71 in), and adult pigs typically weigh between 50 and 350 kg (110 and 770 lb), with well-fed individuals often exceeding this weight range. 
+                The size and weight of a hog largely depends on its breed. Compared to other artiodactyls, its head is relatively long, pointed, and free of warts. Even-toed ungulates are generally herbivorous, but the domestic pig is an omnivore, like its wild relative.
+              </p>  
+          </article>
+          <article class="col"><h3 class="text-white">History</h3>
+              <p>Archaeological evidence suggests that pigs were domesticated from wild boar as early as 13,000–12,700 BC[citation needed] in the Near East in the Tigris Basin, Çayönü, Cafer Höyük, Nevalı Çori being managed in the wild in a way similar to the way they are managed by some modern New Guineans. 
+                Remains of pigs have been dated to earlier than 11,400 BC in Cyprus. Those animals must have been introduced from the mainland, which suggests domestication in the adjacent mainland by then. There was also a separate domestication in China which took place about 8000 years ago.
+              </p>
+          </article>
+        </div>
+        </form>
+      <div class="row">
+        <div class="col">
+<nav class="navbar navbar-dark bg-dark">
+  <ul class="nav flex-column nav-pills">
+      <li class="nav-item">
+      <a class="nav-link" href="#Art1">pig1</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#Art1">pig2</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#Art1">pig3</a>
+      </li>
+  </ul>
+</nav>
+
+        </div>
+        <div class="col"></div>
       </div>
 </body>
 </html>
